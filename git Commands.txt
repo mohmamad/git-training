@@ -1,0 +1,30 @@
+-------------------------------------------git commands---------------------------------------------------------
+git config --global user.name or user.email "your name or your email".
+git config --list (list all the config settings)
+git config <user.name> or <user.email>(to check spacefic setting).
+
+git help <var> (to check a specific commands).
+git help (view the commands).
+
+-------------------------------init git------------------------------------
+echo "text" README.md(add readme file).
+git add . (add file to add files to staging area).
+git commit -m"desc of the commit" (commit changes from the stage area).
+git remote add <name> <link>(name usually origin).
+
+------------------------------github---------------------------------------------------
+git push [-u]<remote name> <branch name>.(-u creats a tracking reference for every that you 
+successfully push onto the remote the local branch is aautomaticlly linked with the remote branch
+this allows the user to use command such as pull with out arguements).
+
+git pull (pulls the rep).
+git status (gets info of the rep like branch , the state of the branch if its up to date or notand staged & changed files(if there is files to commit)).
+touch <file name>(only for linux to creat a new file).
+git status -s / --short (short term of status command).
+git diff --staged(compare between different version of the staged files).
+git diff (to see the not staged modified/added files and compare staged with not staged).
+
+git commit [-a] -m""(commit changes | -a skips the add to stage area step).
+
+----------------------------------------------------------------------------------------------------------------
+
